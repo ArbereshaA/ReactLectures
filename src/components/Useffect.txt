@@ -1,0 +1,34 @@
+useEffect: “kur ndodh një ndryshim,
+
+() => { ... }: “ beje ket”
+
+return () => { ... }: “kur mbaron, pastroje kët" 
+
+[x, y]: “kur x ose y ndryshon, bëje këtë efekt”
+
+
+
+useEffect(() => {
+  console.log("⏱️ Pa array - ndodh pas çdo render");
+});
+
+useEffect(() => {
+  console.log("🎯 Me [] - ndodh vetëm një herë");
+}, []);
+
+useEffect(() => {
+  console.log("🔁 Me [count] - ndodh sa herë ndryshon count");
+}, [count]);
+
+
+GitHub
+
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/emri/repository.git
+git branch -M main
+git push -u origin main
+
+
+
