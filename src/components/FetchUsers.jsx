@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 function FetchUsers() {
-  const [users, setUsers] = useState([]); // për të dhënat
-  const [loading, setLoading] = useState(true); // për statusin e ngarkimit
-  const [error, setError] = useState(null); // për gabime
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
+  console.log(users);
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => {
@@ -33,6 +34,7 @@ function FetchUsers() {
         {users.map((user) => (
           <li key={user.id}>
             <strong>{user.name}</strong> - {user.email}
+            {user.address.geo.lat}
           </li>
         ))}
       </ul>
