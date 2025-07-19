@@ -24,6 +24,8 @@ import Hello from "./components/UseEffect1";
 import Counter from "./components/UseEffect2";
 import Timerr from "./components/UsseEfect3";
 import PageTitleChanger from "./components/PageTitleChanger";
+import FetchUsers from "./components/FetchUsers";
+import NewsList from "./components/NewsList";
 
 function App() {
   const books = [
@@ -74,10 +76,12 @@ function App() {
     //<OneStateForm /> //with emailjs
     //<FormFeedbackMultipleState />
     //<FormFeedbackOneState />
-    <Hello />
+    //<Hello />
     //<Counter />
     //<Timerr />
-    // <PageTitleChanger />
+    //<PageTitleChanger />
+    //<FetchUsers />
+    <NewsList />
   );
 }
 
