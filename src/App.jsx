@@ -26,6 +26,14 @@ import Timerr from "./components/UsseEfect3";
 import PageTitleChanger from "./components/PageTitleChanger";
 import FetchUsers from "./components/FetchUsers";
 import NewsList from "./components/NewsList";
+import PokemonInfo from "./components/PokemoInfo";
+import RandomRecipe from "./components/RandomRecipe";
+import RandomCatFact from "./components/RandomCatFact";
+import UserSearch from "./components/UserSeacrh";
+import DogGallery from "./components/DogGallery";
+import HolidayList from "./components/HolidayList";
+import TriviaQuizBasic from "./components/Quiz";
+import TriviaQuizLoop from "./components/Quiz";
 
 function App() {
   const books = [
@@ -81,7 +89,14 @@ function App() {
     //<Timerr />
     //<PageTitleChanger />
     //<FetchUsers />
-    <NewsList />
+    //<NewsList />
+    //<PokemonInfo />
+    //<RandomRecipe />
+    //<RandomCatFact />
+    //<UserSearch />
+    //<DogGallery />
+    // <HolidayList />
+    <TriviaQuizLoop />
   );
 }
 
