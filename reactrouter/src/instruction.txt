@@ -1,0 +1,13 @@
+// 1. Display a list of animal names (Cat, Dog, Elephant).
+// 2. When clicking an animal, navigate to /animals/[animalName].
+// 3. On the animal page, display: "You selected: [animalName]".
+
+
+// 1. Show a list of movies with their IDs (e.g., id: 101, 102, 103).
+// 2. When clicking a movie, navigate to /movies/[id].
+// 3. On the movie page, display: "You are viewing movie #[id]".
+
+
+// 1. Create buttons for countries (e.g., Albania, Germany, Japan).
+// 2. When clicking a button, navigate to /countries/[countryName].
+// 3. On the country page, display: "You selected [countryName] 🇦🇱".
