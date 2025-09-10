@@ -7,7 +7,7 @@ function StudentDetails() {
   return (
     <div>
       <h2>Hello, {name}!</h2>
-      <button onClick={() => navigate("/")}>Go to Home</button>
+      <button onClick={() => navigate("/students")}>Go to Student List</button>
     </div>
   );
 }
